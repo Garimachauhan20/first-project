@@ -1,0 +1,732 @@
+.container{
+  position: absolute;
+}
+.frontpage{
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+}
+.iconleft{
+    margin-left: -47px;
+    margin-top: -80px;
+    height: 230px;
+    position: relative;
+}
+.arrows{
+height: 65px;
+position: absolute;
+top: 5%;
+right: 79%;
+}
+
+.centerdiv{
+flex: 1;
+}
+.slider3{
+    transform: rotate(195deg); 
+    height: 50px; 
+    margin-left: 70px;
+}
+.iconcenter{
+   height: 430px;
+    opacity: 0.15; 
+padding-top: 30px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+.text1{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+  color: rgb(241, 211, 10);
+  position: absolute;
+    top: 22%;
+  left: 44%;
+
+}
+.text2{
+font-family: 'Montserrat Alternates', sans-serif;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top:31%;
+  left: 38%;
+  font-weight: 700;
+}
+.text3{
+ font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 9px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 34%;
+}
+.learnbutton{
+ font-family: 'Montserrat Alternates', sans-serif;
+  position: absolute;
+  top: 64%;
+  left: 47%;
+  font-size: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  border: 1px solid black;
+ background-color: transparent;
+}
+.learnbutton:hover{
+  cursor: pointer;
+}
+.shaper1{
+height: 45px;
+position: absolute;
+top: 24%;
+left: 31%;
+transform: rotate(210deg);
+}
+.shaper2{
+height: 35px;
+position: absolute;
+top: 20%;
+left: 48%;
+}
+.shaper3{
+height: 55px;
+position: absolute;
+top: 7%;
+right: 27%;
+}
+.shaper4{
+    height: 8px;
+    position: absolute;
+    top: 26%;
+    right: 25%; 
+}
+.shaper5{
+height: 57px;
+position: absolute;
+bottom: 30%;
+left: 23%;
+}
+.shaper6{
+    height: 65px;
+    position: absolute; 
+    top:66%;
+    left: 93%
+}
+.icon1{
+height: 35px;
+width: 35px;
+border: 25px solid rgb(228, 104, 228);
+border-radius: 50%;
+padding:8px;
+position: absolute;
+top: 300px;
+}
+.icon2{
+height: 30px;
+width: 30px;
+border: 10px solid rgb(246, 184, 210);
+border-radius: 50%;
+padding: 5px;
+position: absolute;
+top: 200px;
+}
+.icon3{
+height: 30px;
+width: 30px;
+border: 10px solid rgb(205, 205, 205);
+border-radius: 50%;
+padding: 5px;
+position: absolute;
+top: 500px; 
+}
+.icon4{
+height: 80px;
+width: 80px;
+border: 15px solid rgb(255, 214, 80);
+border-radius: 50%;
+padding: 12px;
+position: absolute;
+top: 50px;
+}
+.class{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: lightpink;
+}
+.topright{
+    height: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    margin-top: -70px;
+    margin-right: -70px;
+}
+.toprightabove{
+    height: 350px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin-top: -117px;
+   margin-right: -117px;
+   z-index: 1;
+}
+
+
+.navigationbar{
+display: flex;
+margin-top: 35px;
+}
+.nbleft{
+  width: 265px;
+}
+.logo{
+    margin-top: 20px;
+    height: 23px;
+    margin-left: 35px
+    
+}
+.nbcenter{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.nbtext{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+.nbtextdiv{
+  position: relative;
+}
+.hoverdots{
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+  visibility: hidden;
+}
+.nbtext1{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  color: violet;
+}
+.hoverdots1{
+position: absolute;
+bottom: 34px;
+left: 285px;
+}
+.nbtextdiv:hover .hoverdots{
+  visibility: visible;
+  transition: 1s;
+}
+.dot1{
+ height: 4px;
+ width: 4px;
+ border-radius: 50%;
+ background: rgb(218, 77, 197);
+ display: inline-block;
+ margin-left: 1px;
+}
+.dot2{
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: rgb(217, 222, 65); 
+  display: inline-block;
+  margin-left: 1px;}
+ .dot3{
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: rgb(102, 164, 215);
+  display: inline-block;
+  margin-left: 1px;
+ }
+.nbtext:hover{
+    color: rgb(255, 133, 239);
+    cursor: pointer;
+}
+
+
+.nbright{
+  width: 220px;
+  margin-top: 10px;
+  padding-left: 100px;
+  position: relative;
+}
+.contactbutton{
+margin-right: 0px;
+padding-left: 45px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 50px;
+border: 1px solid black;
+background-color: white;
+font-weight: 700;
+}
+.contactbutton:hover{
+  cursor: pointer;
+}
+.whatsappicon{
+  position: absolute;
+  top: 10px;
+ right: 175px; 
+}
+
+
+hr {
+  border:none;
+  height: 18px;
+ 	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	box-shadow: 0 10px 13px -18px rgb(49, 48, 48);
+  margin: -40px auto 10px; 
+}
+
+.page2{
+  display: flex;
+  vertical-align: top;
+   background-image: url("icons/about-circle.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 150px 380px;
+  margin-bottom: 0px;
+}
+
+.aboutdiv{
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+.background{
+  width: 82%;
+  height: 180px;
+  background-color: violet;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  z-index: -1;
+}
+.abouticon{
+ margin-top: 180px;
+ margin-left:100px;
+}
+.aboutpara{
+  margin-top: 130px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: inline-block;
+  width: 50%;
+}
+.p1{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.p2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 17px;
+}
+.p3{
+   line-height: 24px;
+color: rgb(152, 152, 152);
+}
+.arrow{
+  margin-bottom: 5px;
+  color: rgb(102, 164, 215);
+}
+.arrowicon{
+ display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.p4{
+  display: inline-block;
+  line-height: 24px;
+  color: rgb(152, 152, 152);
+  margin-left: 5px;
+}
+
+.learnbutton2{
+  padding:9px 27px ;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(248, 194, 78);
+  margin-top: 24px;
+  cursor: pointer;
+}
+.headpage3{
+  margin: 50px 40px 40px 0px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 44px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-top: 50px;
+}
+.page3boxes{
+ display: grid;
+ grid-template-columns:345px 345px 345px ;
+ grid-template-rows:220px;
+ column-gap: 28px;
+  margin-top: 70px;
+  margin-left: 0px;
+  margin-left: 80px;
+}
+.pagediv3{
+padding: 0;
+padding-top: 40px;
+text-align: center;
+background-color: rgb(102, 164, 215);
+color: white;
+display: inline-block;
+box-shadow: 1px 2px 17px 2px rgb(196, 196, 196);
+}
+.page4{
+  text-align: center;
+  margin-top: 120px;
+  background-color: rgb(248, 248, 248);
+  background-image: url(icons/team-circle.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.page4grid{
+  background-color: white;
+  margin-top: 95px;
+  margin-left: 80px;
+  margin-right: 88px;
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  column-gap: 0px;
+  row-gap: 0px;
+}
+.gridimg{
+  width: 100%;
+  margin: -2px;
+}
+.gridpara{
+ text-align: center;
+ display: inline-block;
+ padding: 20px 15px;
+ margin: -2px;
+}
+.gridparadiff{
+ display: grid;
+ grid-template-rows: 45% 55%;
+
+ }
+.page5{
+background-color: rgb(247, 247, 247) ;
+}
+.parallax1{
+  padding-top: 100px;
+  position: relative;
+}
+.page5div{
+  position: absolute;
+  top: 38%;
+  left: 13%;
+}
+.page5img{
+  height: 450px;
+}
+.page6div{
+  display: flex;
+  margin-top: 75px;
+  margin-left: 370px;
+  margin-right: 370px;
+  margin-bottom: 50px;
+justify-content: space-between;
+}
+.page6text{
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+}
+
+.page6text:hover{
+  color: violet;
+  cursor: pointer;
+}
+.workimg{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 420px 300px ;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px;
+}
+.grid3{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.work1{
+    width: 665px;
+}
+.work2{
+  width: 290px;
+}
+.work3{
+  width: 290px;
+}
+.work4{
+  width: 332.5px;
+}
+.work5{
+  width: 332.5px;
+   
+}
+.work6{
+   width: 581px;
+   height: 463px;
+   margin-top: -130px;
+}
+.pricetag{
+  display: grid;
+  grid-template-columns: 345px 345px 345px ;
+  grid-template-rows:70px 450px;
+  column-gap: 30px;
+  margin-left: 80px;
+
+}
+.page8box1{
+  box-shadow: 0px 0px 15px 1px rgb(196, 196, 196);
+  text-align: center;
+  padding: 20px;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.learnbutton3{
+  padding: 15px 39px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(102, 164, 215);
+  color: white;
+  margin-top: 18px;
+}
+.page8box2{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-rows: 100px 350px;
+  margin: 0px;
+  background-color:  rgb(248, 194, 78);
+  box-shadow: 0px 0px 15px 1px rgb(196, 196, 196);
+  text-align: center;
+  }
+.standardcard{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ position: relative;
+}
+.triangle{
+ width: 0;
+height: 0;
+border-left: 73px solid transparent;
+border-right: 73px solid transparent;
+border-bottom: 73px solid  rgb(248, 194, 78);;
+transform:rotate(315deg);
+position: absolute;
+top: -11px;
+left: -47.5px;
+color: white;
+}
+.triangle p{
+  margin-top: 5px;
+  font-size: 18px;
+}
+.special{
+  position: absolute;
+  top: 17px;
+  left: -27px;
+}
+.learnbutton4{
+  padding: 15px 39px;
+  border-radius: 25px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin-top: 18px;
+}
+.page8box3{
+  grid-row-start: 2;
+ grid-row-end: 3;
+  box-shadow: 0px 0px 15px 1px rgb(196, 196, 196);
+  text-align: center;
+  padding: 20px;
+}
+.learnbutton5{
+  padding: 15px 39px;
+  border-radius: 25px;
+  border: none;
+  background-color: violet;
+  color: white;
+  margin-top: 18px;
+}
+.map{
+  position: relative;
+  background-image: url(icons/parallax2.png);
+  background-repeat: repeat-y;
+ background-size: 100% 300px;
+  height: 800px;
+}
+.mapdiv1{
+  position: absolute;
+  top: 50px;
+  left: 41%;
+}
+.mapdiv2{
+  margin-left: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgb(242, 242, 242);
+  display: inline-block;
+  position: absolute;
+  top: 310px;
+  left: 30%;
+  height: 337px;
+  width: 530px;
+}
+.testimonial1{
+width: 61px;
+border: 6px solid rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+opacity: 0.6;
+position: absolute;
+top: 140px;
+left: 31%;
+}
+.testimonial2{
+  width: 61px;
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+  opacity: 0.6;
+  position: absolute;
+  top: 120px;
+  right: 24%;
+  }
+  .testimonial3{
+    width: 60px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+    opacity: 0.6;
+    position: absolute;
+    top: 23px;
+    left: 80px;
+    }
+.testimonial4{
+width: 60px;
+border: 6px solid  rgb(248, 194, 78);;
+border-radius: 50%;
+box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+opacity: 0.8;
+position: absolute;
+top: 80px;
+right: 20px;
+}
+.testimonial5{
+width: 60px;
+border: 6px solid rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+opacity: 0.6;
+position: absolute;
+top: 52%;
+left: 19%;
+}
+.testimonial6{
+  width: 60px;
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+  opacity: 0.6;
+  position: absolute;
+  top: 68%;
+left: 8.5%;
+}
+.testimonial7{
+width: 60px;
+border: 6px solid rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+opacity: 0.6;
+position: absolute;
+top: 43%;
+right: 11%;
+}
+.testimonial8{
+width: 60px;
+border: 6px solid rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 2px 2px 15px 1px rgb(216, 216, 216);
+opacity: 0.6;
+position: absolute;
+top: 77%;
+right: 6%;
+}
+.agencyblog{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 598px;
+}
+.blogpage{
+background-color:  rgb(248, 194, 78);;
+color: white;
+margin-left: -4px;
+text-align: center;
+padding-top: 135px;
+}
+.learnbutton6{
+  margin-top: 46px;
+  padding: 16px 43px;
+  border-radius: 35px;
+  border: none;
+  background-color: rgb(102, 164, 215);
+  color: white;
+  cursor: pointer;
+}
+
+.contactdiv{
+background-color: rgb(244, 244, 244);
+display: grid;
+grid-template-columns: 540px 540px;
+grid-template-rows: 450px;
+padding-left: 80px;
+padding-top: 110px;
+padding-bottom: 110px;
+}
+.contacinfo{
+  background-color: white;
+}
+.lastpage{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+.lastpageicons{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
